@@ -46,10 +46,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1023, 699);
+            this.ClientSize = new System.Drawing.Size(1162, 922);
             this.Controls.Add(this.messageButton);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "顯示文字";
             this.ResumeLayout(false);
 
         }
