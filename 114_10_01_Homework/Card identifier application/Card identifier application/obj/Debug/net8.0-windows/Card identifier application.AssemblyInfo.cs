@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Tutorial_2_4")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Card identifier application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+29268cd58e2bf580bdf01cccedb63c38462b5057")]
-[assembly: System.Reflection.AssemblyProductAttribute("Tutorial_2_4")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Tutorial_2_4")]
+[assembly: System.Reflection.AssemblyProductAttribute("Card identifier application")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Card identifier application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]
