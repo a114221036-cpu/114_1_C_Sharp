@@ -30,11 +30,11 @@
         {
             this.buildingpriceLabel = new System.Windows.Forms.Label();
             this.outputDescriptionLabel = new System.Windows.Forms.Label();
-            this.calculateButton = new System.Windows.Forms.Button();
             this.clearButton = new System.Windows.Forms.Button();
             this.exitButton = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.instranceamountLabel = new System.Windows.Forms.Label();
+            this.calcuateButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // buildingpriceLabel
@@ -51,31 +51,23 @@
             // 
             this.outputDescriptionLabel.AutoSize = true;
             this.outputDescriptionLabel.Font = new System.Drawing.Font("新細明體", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.outputDescriptionLabel.Location = new System.Drawing.Point(163, 127);
+            this.outputDescriptionLabel.Location = new System.Drawing.Point(163, 151);
             this.outputDescriptionLabel.Name = "outputDescriptionLabel";
             this.outputDescriptionLabel.Size = new System.Drawing.Size(225, 48);
             this.outputDescriptionLabel.TabIndex = 1;
             this.outputDescriptionLabel.Text = "保險金額:";
-            // 
-            // calculateButton
-            // 
-            this.calculateButton.Font = new System.Drawing.Font("新細明體", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.calculateButton.Location = new System.Drawing.Point(50, 261);
-            this.calculateButton.Name = "calculateButton";
-            this.calculateButton.Size = new System.Drawing.Size(215, 89);
-            this.calculateButton.TabIndex = 2;
-            this.calculateButton.Text = "計算";
-            this.calculateButton.UseVisualStyleBackColor = true;
+            this.outputDescriptionLabel.Click += new System.EventHandler(this.outputDescriptionLabel_Click);
             // 
             // clearButton
             // 
             this.clearButton.Font = new System.Drawing.Font("新細明體", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.clearButton.Location = new System.Drawing.Point(285, 261);
+            this.clearButton.Location = new System.Drawing.Point(301, 261);
             this.clearButton.Name = "clearButton";
             this.clearButton.Size = new System.Drawing.Size(215, 89);
             this.clearButton.TabIndex = 3;
             this.clearButton.Text = "清除";
             this.clearButton.UseVisualStyleBackColor = true;
+            this.clearButton.Click += new System.EventHandler(this.clearButton_Click);
             // 
             // exitButton
             // 
@@ -86,6 +78,7 @@
             this.exitButton.TabIndex = 4;
             this.exitButton.Text = "離開";
             this.exitButton.UseVisualStyleBackColor = true;
+            this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
             // 
             // textBox1
             // 
@@ -95,25 +88,37 @@
             this.textBox1.Size = new System.Drawing.Size(290, 65);
             this.textBox1.TabIndex = 5;
             // 
-            // label1
+            // instranceamountLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(431, 151);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(50, 18);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "label1";
+            this.instranceamountLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.instranceamountLabel.Font = new System.Drawing.Font("新細明體", 20F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.instranceamountLabel.Location = new System.Drawing.Point(394, 142);
+            this.instranceamountLabel.Name = "instranceamountLabel";
+            this.instranceamountLabel.Size = new System.Drawing.Size(290, 57);
+            this.instranceamountLabel.TabIndex = 6;
+            this.instranceamountLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // calcuateButton
+            // 
+            this.calcuateButton.Font = new System.Drawing.Font("新細明體", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.calcuateButton.Location = new System.Drawing.Point(52, 261);
+            this.calcuateButton.Name = "calcuateButton";
+            this.calcuateButton.Size = new System.Drawing.Size(215, 89);
+            this.calcuateButton.TabIndex = 7;
+            this.calcuateButton.Text = "計算";
+            this.calcuateButton.UseVisualStyleBackColor = true;
+            this.calcuateButton.Click += new System.EventHandler(this.calcuateButton_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.calcuateButton);
+            this.Controls.Add(this.instranceamountLabel);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.clearButton);
-            this.Controls.Add(this.calculateButton);
             this.Controls.Add(this.outputDescriptionLabel);
             this.Controls.Add(this.buildingpriceLabel);
             this.Name = "Form1";
@@ -127,11 +132,11 @@
 
         private System.Windows.Forms.Label buildingpriceLabel;
         private System.Windows.Forms.Label outputDescriptionLabel;
-        private System.Windows.Forms.Button calculateButton;
         private System.Windows.Forms.Button clearButton;
         private System.Windows.Forms.Button exitButton;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label instranceamountLabel;
+        private System.Windows.Forms.Button calcuateButton;
     }
 }
 
