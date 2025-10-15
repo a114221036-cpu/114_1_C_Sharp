@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Heads or Tails")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+db30d96f6b9a4d60b8d910e07096d3170ba60ccf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8ccc1ba4dd4282bcad5cbeb42b040e7578cd64d2")]
 [assembly: System.Reflection.AssemblyProductAttribute("Heads or Tails")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Heads or Tails")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

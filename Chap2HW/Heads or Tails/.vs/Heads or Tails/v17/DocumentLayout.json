@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\114_1_C_Sharp\\114_10_01_Homework\\Heads or Tails\\",
+  "WorkspaceRootPath": "C:\\Users\\m303\\Desktop\\114_1_C_Sharp\\Chap2HW\\Heads or Tails\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2FE7A1FD-F9A0-47A2-9A58-C6267D54D92D}|Heads or Tails\\Heads or Tails.csproj|c:\\users\\user\\desktop\\114_1_c_sharp\\114_10_01_homework\\heads or tails\\heads or tails\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{2FE7A1FD-F9A0-47A2-9A58-C6267D54D92D}|Heads or Tails\\Heads or Tails.csproj|c:\\users\\m303\\desktop\\114_1_c_sharp\\chap2hw\\heads or tails\\heads or tails\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{2FE7A1FD-F9A0-47A2-9A58-C6267D54D92D}|Heads or Tails\\Heads or Tails.csproj|solutionrelative:heads or tails\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FE7A1FD-F9A0-47A2-9A58-C6267D54D92D}|Heads or Tails\\Heads or Tails.csproj|c:\\users\\user\\desktop\\114_1_c_sharp\\114_10_01_homework\\heads or tails\\heads or tails\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2FE7A1FD-F9A0-47A2-9A58-C6267D54D92D}|Heads or Tails\\Heads or Tails.csproj|c:\\users\\m303\\desktop\\114_1_c_sharp\\chap2hw\\heads or tails\\heads or tails\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FE7A1FD-F9A0-47A2-9A58-C6267D54D92D}|Heads or Tails\\Heads or Tails.csproj|solutionrelative:heads or tails\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,19 +18,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\114_1_C_Sharp\\114_10_01_Homework\\Heads or Tails\\Heads or Tails\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\m303\\Desktop\\114_1_C_Sharp\\Chap2HW\\Heads or Tails\\Heads or Tails\\Form1.cs",
               "RelativeDocumentMoniker": "Heads or Tails\\Form1.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\114_1_C_Sharp\\114_10_01_Homework\\Heads or Tails\\Heads or Tails\\Form1.cs",
+              "ToolTip": "C:\\Users\\m303\\Desktop\\114_1_C_Sharp\\Chap2HW\\Heads or Tails\\Heads or Tails\\Form1.cs",
               "RelativeToolTip": "Heads or Tails\\Form1.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAkwBwAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -41,9 +37,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs [\u8A2D\u8A08]",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\114_1_C_Sharp\\114_10_01_Homework\\Heads or Tails\\Heads or Tails\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\m303\\Desktop\\114_1_C_Sharp\\Chap2HW\\Heads or Tails\\Heads or Tails\\Form1.cs",
               "RelativeDocumentMoniker": "Heads or Tails\\Form1.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\114_1_C_Sharp\\114_10_01_Homework\\Heads or Tails\\Heads or Tails\\Form1.cs [\u8A2D\u8A08]",
+              "ToolTip": "C:\\Users\\m303\\Desktop\\114_1_C_Sharp\\Chap2HW\\Heads or Tails\\Heads or Tails\\Form1.cs [\u8A2D\u8A08]",
               "RelativeToolTip": "Heads or Tails\\Form1.cs [\u8A2D\u8A08]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-03T13:21:13.214Z",

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Card identifier application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc1c17b54c76906119aa35804c3bac5796faef83")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8ccc1ba4dd4282bcad5cbeb42b040e7578cd64d2")]
 [assembly: System.Reflection.AssemblyProductAttribute("Card identifier application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Card identifier application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
