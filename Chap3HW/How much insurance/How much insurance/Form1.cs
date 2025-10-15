@@ -12,7 +12,7 @@ using static System.Net.Mime.MediaTypeNames;
 
 namespace How_much_insurance
 {
-    [DebuggerDisplay("{" + nameof(GetDebuggerDisplay) + "(),nq}")]
+
     public partial class Form1 : Form
     {
         private object insuranceAmountLabel;
@@ -37,10 +37,12 @@ namespace How_much_insurance
 
         private void clearButton_Click(object sender, EventArgs e)
         {
-            buildingpriceLabel.Text = "";
-            outputDescriptionLabel.Text = "";
+            textBox1.Text = "";
+            instranceamountLabel.Text = "";
 
-            
+            textBox1.Focus();
+
+
         }
 
         private void insuranceaountLabel_Click(object sender, EventArgs e)
@@ -48,7 +50,7 @@ namespace How_much_insurance
 
         }
 
-        // 請在 calculateButton_Click 方法結尾補上右大括號
+
         private void calculateButton_Click(object sender, EventArgs e)
         {
             double buildingPrice, insuranceAmount;
@@ -58,23 +60,31 @@ namespace How_much_insurance
         private void calcuateButton_Click(object sender, EventArgs e)
 
         {
+            double cost = 0;
+
             try
             {
-                // 假設 buildingpriceLabel 是用來輸入建築物價格的 TextBox
-                double buildingPrice = Convert.ToDouble(buildingpriceLabel.Text);
+
+                cost = double.Parse(textBox1.Text);
 
                 // 計算保險金額為建築物價格的 80%
-                double insuranceAmount = buildingPrice * 0.8;
+                cost = cost * 0.8;
 
-                // 顯示計算結果到 instranceamountLabel（假設它是 Label 控制項）
-                instranceamountLabel.Text = insuranceAmount.ToString("n2");
+
+                instranceamountLabel.Text = cost.ToString("n2");
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message, "例外發生");
+                textBox1.Focus();
             }
         }
+    }
+}
 
-        
 
-   
+
+
+
+
+

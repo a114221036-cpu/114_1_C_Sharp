@@ -92,7 +92,7 @@
             // 
             this.instranceamountLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.instranceamountLabel.Font = new System.Drawing.Font("新細明體", 20F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.instranceamountLabel.Location = new System.Drawing.Point(394, 142);
+            this.instranceamountLabel.Location = new System.Drawing.Point(394, 149);
             this.instranceamountLabel.Name = "instranceamountLabel";
             this.instranceamountLabel.Size = new System.Drawing.Size(290, 57);
             this.instranceamountLabel.TabIndex = 6;
