@@ -1,0 +1,51 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace RadioButtonDemo
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+            // 綁定離開按鈕事件
+            this.exitbutton.Click += exitbutton_Click;
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void sentbutton_Click(object sender, EventArgs e)
+        {
+            // 建立顯示訊息
+            string drink = "(未選擇)";
+            if (CoffeeRadioButton.Checked) drink = CoffeeRadioButton.Text;
+            else if (milkRadioButton.Checked) drink = milkRadioButton.Text;
+            else if (blackTeaRadioButton.Checked) drink = blackTeaRadioButton.Text;
+            else if (juiceRadioButton.Checked) drink = juiceRadioButton.Text;
+
+            string sandwich = "(未選擇)";
+            if (jellySanRadioButton.Checked) sandwich = jellySanRadioButton.Text;
+            else if (hamSanRadioButton.Checked) sandwich = hamSanRadioButton.Text;
+            else if (tunaSanRadioButton.Checked) sandwich = tunaSanRadioButton.Text;
+
+            string message = $"您已選擇:\n飲料：{drink}\n三明治：{sandwich}";
+
+            MessageBox.Show(message, "訂單內容", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void exitbutton_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+    }
+}
