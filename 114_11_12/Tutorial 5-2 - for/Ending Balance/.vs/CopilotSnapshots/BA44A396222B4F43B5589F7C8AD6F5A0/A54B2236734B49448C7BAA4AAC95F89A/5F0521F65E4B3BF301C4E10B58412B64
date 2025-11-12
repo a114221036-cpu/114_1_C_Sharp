@@ -1,0 +1,189 @@
+﻿namespace Ending_Balance
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// 清理任何使用中的資源。
+        /// </summary>
+        /// <param name="disposing">若為 true，表示應該處置託管資源；否則僅處置非託管資源。</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// 設計工具所需的方法 - 請勿使用程式碼編輯器修改
+        /// 這個方法會初始化並配置表單上的所有元件。
+        /// </summary>
+        private void InitializeComponent()
+        {
+            // 以下區塊為元件宣告與屬性設定，已將所有顯示文字改為繁體中文，並設定字型為微軟正黑體（Microsoft JhengHei）且字型大小為 18。
+            this.startingBalancePromptLabel = new System.Windows.Forms.Label();
+            this.monthsPromptLabel = new System.Windows.Forms.Label();
+            this.startingBalTextBox = new System.Windows.Forms.TextBox();
+            this.monthsTextBox = new System.Windows.Forms.TextBox();
+            this.outputDescriptionLabel = new System.Windows.Forms.Label();
+            this.endingBalanceLabel = new System.Windows.Forms.Label();
+            this.calculateButton = new System.Windows.Forms.Button();
+            this.clearButton = new System.Windows.Forms.Button();
+            this.exitButton = new System.Windows.Forms.Button();
+            this.detailListBox = new System.Windows.Forms.ListBox();
+            this.SuspendLayout();
+            // 
+            // startingBalancePromptLabel
+            // 
+            // 標籤：提示使用者輸入起始餘額（繁體中文）
+            this.startingBalancePromptLabel.AutoSize = true;
+            this.startingBalancePromptLabel.Font = new System.Drawing.Font("Microsoft JhengHei", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136))); // 設定為繁體中文字型，字型大小 18
+            this.startingBalancePromptLabel.Location = new System.Drawing.Point(55, 14);
+            this.startingBalancePromptLabel.Name = "startingBalancePromptLabel";
+            this.startingBalancePromptLabel.Size = new System.Drawing.Size(65, 13);
+            this.startingBalancePromptLabel.TabIndex = 0;
+            this.startingBalancePromptLabel.Text = "起始餘額："; // 繁體中文顯示
+            // 
+            // monthsPromptLabel
+            // 
+            // 標籤：提示使用者輸入月份數（繁體中文）
+            this.monthsPromptLabel.AutoSize = true;
+            this.monthsPromptLabel.Font = new System.Drawing.Font("Microsoft JhengHei", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136))); // 字型 18
+            this.monthsPromptLabel.Location = new System.Drawing.Point(46, 40);
+            this.monthsPromptLabel.Name = "monthsPromptLabel";
+            this.monthsPromptLabel.Size = new System.Drawing.Size(77, 13);
+            this.monthsPromptLabel.TabIndex = 2;
+            this.monthsPromptLabel.Text = "月份數量："; // 繁體中文顯示
+            // 
+            // startingBalTextBox
+            // 
+            // 文字方塊：輸入起始餘額，設定字型讓輸入內容易讀
+            this.startingBalTextBox.Font = new System.Drawing.Font("Microsoft JhengHei", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.startingBalTextBox.Location = new System.Drawing.Point(149, 10);
+            this.startingBalTextBox.Name = "startingBalTextBox";
+            this.startingBalTextBox.Size = new System.Drawing.Size(100, 20);
+            this.startingBalTextBox.TabIndex = 3;
+            // 
+            // monthsTextBox
+            // 
+            // 文字方塊：輸入月份數，設定字型為 18 以便顯示清楚
+            this.monthsTextBox.Font = new System.Drawing.Font("Microsoft JhengHei", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.monthsTextBox.Location = new System.Drawing.Point(149, 37);
+            this.monthsTextBox.Name = "monthsTextBox";
+            this.monthsTextBox.Size = new System.Drawing.Size(100, 20);
+            this.monthsTextBox.TabIndex = 5;
+            // 
+            // outputDescriptionLabel
+            // 
+            // 標籤：顯示輸出描述（結餘）
+            this.outputDescriptionLabel.AutoSize = true;
+            this.outputDescriptionLabel.Font = new System.Drawing.Font("Microsoft JhengHei", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.outputDescriptionLabel.Location = new System.Drawing.Point(52, 214);
+            this.outputDescriptionLabel.Name = "outputDescriptionLabel";
+            this.outputDescriptionLabel.Size = new System.Drawing.Size(65, 13);
+            this.outputDescriptionLabel.TabIndex = 6;
+            this.outputDescriptionLabel.Text = "結餘："; // 繁體中文顯示
+            // 
+            // endingBalanceLabel
+            // 
+            // 標籤：用來顯示計算後的結餘，使用邊框以突顯
+            this.endingBalanceLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.endingBalanceLabel.Font = new System.Drawing.Font("Microsoft JhengHei", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.endingBalanceLabel.Location = new System.Drawing.Point(143, 209);
+            this.endingBalanceLabel.Name = "endingBalanceLabel";
+            this.endingBalanceLabel.Size = new System.Drawing.Size(100, 23);
+            this.endingBalanceLabel.TabIndex = 7;
+            this.endingBalanceLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // calculateButton
+            // 
+            // 按鈕：執行計算動作，文字為繁體中文
+            this.calculateButton.Font = new System.Drawing.Font("Microsoft JhengHei", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.calculateButton.Location = new System.Drawing.Point(29, 250);
+            this.calculateButton.Name = "calculateButton";
+            this.calculateButton.Size = new System.Drawing.Size(75, 23);
+            this.calculateButton.TabIndex = 8;
+            this.calculateButton.Text = "計算"; // 繁體中文顯示
+            this.calculateButton.UseVisualStyleBackColor = true;
+            this.calculateButton.Click += new System.EventHandler(this.calculateButton_Click);
+            // 
+            // clearButton
+            // 
+            // 按鈕：清除所有輸入與輸出
+            this.clearButton.Font = new System.Drawing.Font("Microsoft JhengHei", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.clearButton.Location = new System.Drawing.Point(110, 250);
+            this.clearButton.Name = "clearButton";
+            this.clearButton.Size = new System.Drawing.Size(75, 23);
+            this.clearButton.TabIndex = 9;
+            this.clearButton.Text = "清除"; // 繁體中文顯示
+            this.clearButton.UseVisualStyleBackColor = true;
+            this.clearButton.Click += new System.EventHandler(this.clearButton_Click);
+            // 
+            // exitButton
+            // 
+            // 按鈕：關閉表單（離開/退出）
+            this.exitButton.Font = new System.Drawing.Font("Microsoft JhengHei", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.exitButton.Location = new System.Drawing.Point(191, 250);
+            this.exitButton.Name = "exitButton";
+            this.exitButton.Size = new System.Drawing.Size(75, 23);
+            this.exitButton.TabIndex = 10;
+            this.exitButton.Text = "退出"; // 繁體中文顯示
+            this.exitButton.UseVisualStyleBackColor = true;
+            this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
+            // 
+            // detailListBox
+            // 
+            // 列表方塊：用以顯示每個月份的明細資訊，字型設定為 18 以方便閱讀
+            this.detailListBox.Font = new System.Drawing.Font("Microsoft JhengHei", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.detailListBox.FormattingEnabled = true;
+            this.detailListBox.Location = new System.Drawing.Point(12, 73);
+            this.detailListBox.Name = "detailListBox";
+            this.detailListBox.Size = new System.Drawing.Size(270, 121);
+            this.detailListBox.TabIndex = 11;
+            // 
+            // Form1
+            // 
+            // 表單主要屬性：設定標題文字為繁體中文，並將整個表單的預設字型設定為 18
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(294, 287);
+            this.Controls.Add(this.detailListBox);
+            this.Controls.Add(this.exitButton);
+            this.Controls.Add(this.clearButton);
+            this.Controls.Add(this.calculateButton);
+            this.Controls.Add(this.endingBalanceLabel);
+            this.Controls.Add(this.outputDescriptionLabel);
+            this.Controls.Add(this.monthsTextBox);
+            this.Controls.Add(this.startingBalTextBox);
+            this.Controls.Add(this.monthsPromptLabel);
+            this.Controls.Add(this.startingBalancePromptLabel);
+            this.Font = new System.Drawing.Font("Microsoft JhengHei", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.Name = "Form1";
+            this.Text = "結餘計算"; // 表單標題（繁體中文）
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Label startingBalancePromptLabel;
+        private System.Windows.Forms.Label monthsPromptLabel;
+        private System.Windows.Forms.TextBox startingBalTextBox;
+        private System.Windows.Forms.TextBox monthsTextBox;
+        private System.Windows.Forms.Label outputDescriptionLabel;
+        private System.Windows.Forms.Label endingBalanceLabel;
+        private System.Windows.Forms.Button calculateButton;
+        private System.Windows.Forms.Button clearButton;
+        private System.Windows.Forms.Button exitButton;
+        private System.Windows.Forms.ListBox detailListBox;
+    }
+}
