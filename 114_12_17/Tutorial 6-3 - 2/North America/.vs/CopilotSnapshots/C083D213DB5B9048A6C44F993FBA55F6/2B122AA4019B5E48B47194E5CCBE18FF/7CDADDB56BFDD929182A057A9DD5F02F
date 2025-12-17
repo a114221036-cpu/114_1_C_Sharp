@@ -1,0 +1,104 @@
+﻿namespace North_America
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.exitButton = new System.Windows.Forms.Button();
+            this.getCountriesButton = new System.Windows.Forms.Button();
+            this.outputDescriptionLabel = new System.Windows.Forms.Label();
+            this.countriesListBox = new System.Windows.Forms.ListBox();
+            this.openFile = new System.Windows.Forms.OpenFileDialog();
+            this.SuspendLayout();
+            // 
+            // exitButton
+            // 退出按鈕：用於關閉應用程式視窗
+            this.exitButton.Location = new System.Drawing.Point(175, 180);
+            this.exitButton.Name = "exitButton";
+            this.exitButton.Size = new System.Drawing.Size(100, 50);
+            this.exitButton.TabIndex = 7;
+            this.exitButton.Text = "結束";
+            this.exitButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.exitButton.UseVisualStyleBackColor = true;
+            this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
+            // 
+            // getCountriesButton
+            // 獲取國家按鈕：點擊後讀取並顯示北美國家清單
+            this.getCountriesButton.Location = new System.Drawing.Point(55, 180);
+            this.getCountriesButton.Name = "getCountriesButton";
+            this.getCountriesButton.Size = new System.Drawing.Size(100, 50);
+            this.getCountriesButton.TabIndex = 6;
+            this.getCountriesButton.Text = "獲取國家";
+            this.getCountriesButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.getCountriesButton.UseVisualStyleBackColor = true;
+            this.getCountriesButton.Click += new System.EventHandler(this.getCountriesButton_Click);
+            // 
+            // outputDescriptionLabel
+            // 表頭標籤：顯示應用程式的標題「北美地區的國家」
+            this.outputDescriptionLabel.AutoSize = false;
+            this.outputDescriptionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.outputDescriptionLabel.Location = new System.Drawing.Point(15, 13);
+            this.outputDescriptionLabel.Name = "outputDescriptionLabel";
+            this.outputDescriptionLabel.Size = new System.Drawing.Size(310, 40);
+            this.outputDescriptionLabel.TabIndex = 5;
+            this.outputDescriptionLabel.Text = "北美地區的國家";
+            // 
+            // countriesListBox
+            // 國家列表框：用於顯示從檔案讀取的北美國家名稱清單
+            this.countriesListBox.FormattingEnabled = true;
+            this.countriesListBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.countriesListBox.Location = new System.Drawing.Point(30, 60);
+            this.countriesListBox.Name = "countriesListBox";
+            this.countriesListBox.Size = new System.Drawing.Size(310, 100);
+            this.countriesListBox.TabIndex = 4;
+            // 
+            // Form1
+            // 主表單：北美地區國家管理應用程式的主視窗
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(370, 250);
+            this.Controls.Add(this.exitButton);
+            this.Controls.Add(this.getCountriesButton);
+            this.Controls.Add(this.outputDescriptionLabel);
+            this.Controls.Add(this.countriesListBox);
+            this.Name = "Form1";
+            this.Text = "北美地區";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Button exitButton;
+        private System.Windows.Forms.Button getCountriesButton;
+        private System.Windows.Forms.Label outputDescriptionLabel;
+        private System.Windows.Forms.ListBox countriesListBox;
+        private System.Windows.Forms.OpenFileDialog openFile;
+    }
+}
+
